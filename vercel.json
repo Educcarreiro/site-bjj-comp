@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/((?!assets/|bimi-logo.svg|icon-192.png|apple-touch-icon.png).*)", "destination": "/index.html" }
+  ]
+}
