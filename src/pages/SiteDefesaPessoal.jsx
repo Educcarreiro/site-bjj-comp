@@ -1,13 +1,14 @@
 import { useState } from 'react';
+import logoLadpp from '../assets/ladpp.png';
+import logoLadfic from '../assets/ladfic.png';
 
 const INSCRICAO_URL = 'https://doity.com.br/alem-do-silencio-enfrentamento-a-importunacao-sexual-e-defesa-pessoal-para-mulheres';
 
-// Logos das ligas/instituições parceiras — troque `nome` por `{ nome, logo }` com a
-// imagem importada assim que as artes chegarem. A faixa duplica a lista e roda em
-// loop infinito, então funciona igual com 2 ou 10 parceiros.
+// Logos das ligas/instituições parceiras. A faixa duplica a lista e roda em loop
+// infinito, então funciona igual com 2 ou 10 parceiros.
 const PARCEIROS = [
-  { nome: 'LADPP · UCSAL' },
-  { nome: 'Coordenação de Extensão · UCSAL' },
+  { nome: 'Liga Acadêmica de Direito Processual Penal', logo: logoLadpp },
+  { nome: 'Liga Acadêmica de Direito Civil', logo: logoLadfic },
 ];
 
 const FATOS = [
