@@ -35,6 +35,20 @@ export default function SiteHome() {
         </div>
       </section>
 
+      <section className="site-section" style={{ paddingBottom: 0 }}>
+        <Link
+          to="/defesa-pessoal"
+          className="card"
+          style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 16, flexWrap: 'wrap', color: 'inherit' }}
+        >
+          <div>
+            <div className="site-section-eyebrow" style={{ marginBottom: 6 }}>Evento especial · 12 de setembro</div>
+            <strong style={{ fontSize: 17 }}>Curso de Defesa Pessoal Feminina — em parceria com a UCSAL</strong>
+          </div>
+          <span className="btn btn-primary btn-sm">Saiba mais</span>
+        </Link>
+      </section>
+
       <section className="site-section">
         <div className="site-section-head">
           <div className="site-section-eyebrow">Modalidades</div>

@@ -21,6 +21,7 @@ export default function SiteFooter() {
             <Link to="/kids">Kids</Link>
             <Link to="/app">App do Aluno</Link>
             <Link to="/contato">Contato</Link>
+            <Link to="/defesa-pessoal">Defesa Pessoal</Link>
           </div>
           <div>
             <div className="site-footer-title">Contato</div>

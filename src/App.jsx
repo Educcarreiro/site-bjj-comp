@@ -4,6 +4,7 @@ import SiteHome from './pages/SiteHome';
 import SiteKids from './pages/SiteKids';
 import SiteApp from './pages/SiteApp';
 import SiteContato from './pages/SiteContato';
+import SiteDefesaPessoal from './pages/SiteDefesaPessoal';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Route path="kids" element={<SiteKids />} />
         <Route path="app" element={<SiteApp />} />
         <Route path="contato" element={<SiteContato />} />
+        <Route path="defesa-pessoal" element={<SiteDefesaPessoal />} />
       </Route>
     </Routes>
   );

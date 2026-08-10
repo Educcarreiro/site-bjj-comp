@@ -5,8 +5,7 @@ const GRID = [
   { horario: '06:50', turmas: { Segunda: 'Turma Feminina', Quarta: 'Turma Feminina', Sexta: 'Turma Feminina' } },
   { horario: '16:00', turmas: { Segunda: 'Jiu-Jitsu Adulto', Quarta: 'Jiu-Jitsu Adulto', Sexta: 'Jiu-Jitsu Adulto' } },
   { horario: '18:00', turmas: { Segunda: 'Infantil', Quarta: 'Infantil', Quinta: 'Infantil' } },
-  { horario: '19:00', turmas: { Sexta: 'Jiu-Jitsu Adulto' } },
-  { horario: '19:30', turmas: { Segunda: 'Jiu-Jitsu Adulto', Terça: 'Jiu-Jitsu Adulto', Quarta: 'Jiu-Jitsu Adulto', Quinta: 'Jiu-Jitsu Adulto' } },
+  { horario: '19:30', turmas: { Segunda: 'Jiu-Jitsu Adulto', Terça: 'Jiu-Jitsu Adulto', Quarta: 'Jiu-Jitsu Adulto', Quinta: 'Jiu-Jitsu Adulto', Sexta: 'Jiu-Jitsu Adulto' } },
 ];
 
 export default function SiteScheduleGrid() {

@@ -506,3 +506,48 @@
   margin-top: 24px;
 }
 .site-contact-actions .btn { padding: 13px 26px; }
+
+/* ---------- carrossel de logos parceiras ---------- */
+.site-partners-track-wrap {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+}
+.site-partners-track {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+  width: max-content;
+  animation: site-partners-scroll 22s linear infinite;
+}
+.site-partners-track:hover { animation-play-state: paused; }
+.site-partners-item {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  height: 72px;
+  padding: 0 20px;
+  border: 1px solid var(--glass-border);
+  border-radius: 14px;
+  background: rgba(var(--overlay-rgb), 0.03);
+}
+.site-partners-item span {
+  font-weight: 700;
+  font-size: 13.5px;
+  color: var(--muted);
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+.site-partners-item img {
+  max-height: 48px;
+  max-width: 150px;
+  object-fit: contain;
+  filter: grayscale(1);
+  opacity: 0.8;
+}
+@keyframes site-partners-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}

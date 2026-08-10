@@ -8,6 +8,7 @@ const LINKS = [
   { to: '/kids', label: 'Kids' },
   { to: '/app', label: 'App do Aluno' },
   { to: '/contato', label: 'Contato' },
+  { to: '/defesa-pessoal', label: 'Defesa Pessoal' },
 ];
 
 export default function SiteNav() {
